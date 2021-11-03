@@ -10,5 +10,5 @@ int main() {
   a = 10;
   increment(&a);
   printf("The Address of a in main is %d\n", &a);
-  printf("%d", a);
+  printf("Now the incremented value is : %d", a);
 }
